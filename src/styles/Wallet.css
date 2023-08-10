@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.header-walletForm {
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  box-shadow: -4px 9px 13px rgba(5, 18, 54, 0.4);
+  position: absolute;
+  width: 80vw;
+}
+
+.header-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.total-field {
+  color: #003be5;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.total-field img , .email-field img {
+  margin-right: 10px;
+}
+
+.email-field {
+  align-items: center;
+  color: #2fc18c;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.form-container {
+  margin: 0 auto;
+}
+
+form {
+  background: rgba(225, 229, 235, 0.49);
+  color: #003be5;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  gap: 20px;
+  justify-content: center;
+  line-height: 14px;
+  padding: 50px;
+}
+
+form label {
+  line-height: 28px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+select {
+  border: 3px solid #003be5;
+  border-radius: 5px;
+  color: #003be5;
+  outline: none;
+  padding: 5px 10px;
+}
+
+
+form label input , form label select {
+  margin-left: 10px;
+
+}
+
+.btn-content {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.add-expense {
+  background-color: #2fc18c;
+  border: 1px solid #2fc18c;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.add-expense:hover {
+  opacity: 0.8;
+}
+
+.table-content {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 90%;
+}
+
+.table-container {
+  background: #003be5;
+  border-radius: 10px;
+  box-shadow: -4px 9px 13px rgba(3, 107, 82, 0.3);
+  color: white;
+  height: 500px;
+  padding-top: 40px;
+}
+
+table {
+  margin: auto;
+  padding-top: 250px;
+  text-align: center;
+  width: 80%;
+}
+
+td {
+  color: #2fc18c;
+  padding: 5px;
+}
+
+th {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+th:last-child {
+  border-right: 0;
+}
+
+.value-input {
+  background: rgba(225, 229, 235, 0.49);
+}
+
+.description-input {
+  background: rgba(225, 229, 235, 0.49);
+}
+
+.delete-btn , .edit-btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
